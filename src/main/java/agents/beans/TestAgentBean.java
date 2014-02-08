@@ -18,7 +18,7 @@ public class TestAgentBean extends AbstractAgentBean{
 	
 	private IActionDescription sendAction = null;
 	private long id = 30;
-	private String accessToken = "CAADAoXWfzBQBAHmn8ZBUd1do1zCI7eRA2UrN2dg5OLJ4yVHjT…UnALSXZCpEGwEsmOtnG5qxYPyXh2wv4DOfcYxx6ewDjZCr3oX";
+	private String accessToken = "AccessToken";
 	
 	@Override
 	public void doStart() throws Exception{
