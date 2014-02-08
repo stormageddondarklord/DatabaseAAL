@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+    <import resource="classpath:de/dailab/jiactng/agentcore/conf/AgentNode.xml" />
+    <import resource="classpath:de/dailab/jiactng/agentcore/conf/JMSMessaging.xml" />
+    <import resource="classpath:de/dailab/jiactng/agentcore/conf/Agent.xml" />
+
+    <bean name="SocialMediaAgentNode" parent="NodeWithJMX">
+        <property name="agents">
+            <list>           	
+            	<ref bean="TestAgent" />
+            	<ref bean="SocialMediaAgent" />
+            </list>
+        </property>
+        <property name="logLevel" value="ERROR" />
+    </bean>
+    
+    <bean name="SocialMediaAgent" parent="SimpleAgent" singleton="false">
+		<property name="agentBeans">
+			<list>
+				<ref bean="FacebookBean" />
+			</list>
+		</property>
+		<property name="logLevel" value="ERROR" />
+	</bean>
+	
+	<bean name="InformationAgent" parent="SimpleAgent" singleton="false">
+		<property name="agentBeans">
+			<list>
+				<ref bean="CalendarBean" />
+				<ref bean="NewsfeedBean" />
+			</list>
+		</property>
+		<property name="logLevel" value="ERROR" />
+	</bean>
+	
+	<bean name="CommunicationAgent" parent="SimpleAgent" singleton="false">
+		<property name="agentBeans">
+			<list>
+				<ref bean="EmailBean" />
+			</list>
+		</property>
+		<property name="logLevel" value="ERROR" />
+	</bean>
+	
+	<bean name="TestAgent" parent="SimpleAgent" singleton="false">
+		<property name="agentBeans">
+			<list>
+				<ref bean="TestAgentBean" />
+			</list>
+		</property>
+		<property name="logLevel" value="ERROR" />
+	</bean>
+	
+	<bean name="GroupingBean" class="agents.beans.GroupingBean" singleton="false">  
+        <property name="logLevel" value="INFO" />
+    </bean>
+    
+    <bean name="FacebookBean" class="agents.beans.FacebookBean" singleton="false">  
+        <property name="logLevel" value="INFO" />
+    </bean>
+    
+    <bean name="CalendarBean" class="agents.beans.CalendarBean" singleton="false">  
+        <property name="logLevel" value="INFO" />
+    </bean>
+    
+    <bean name="EmailBean" class="agents.beans.EmailbookBean" singleton="false">  
+        <property name="logLevel" value="INFO" />
+    </bean>
+    
+    <bean name="NewsfeedBean" class="agents.beans.NewsfeedBean" singleton="false">  
+        <property name="logLevel" value="INFO" />
+    </bean>
+    
+    <bean name="TestAgentBean" class="agents.beans.TestAgentBean" singleton="false">  
+    	<property name="executeInterval" value="1000" />
+        <property name="logLevel" value="INFO" />
+    </bean>
+
+
+</beans>
+

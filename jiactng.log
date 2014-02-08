@@ -1,0 +1,1267 @@
+2014-01-29 23:39:18,783 WARN [n-bdf466cade13] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-01-29 23:39:39,483 WARN [n-bdf9144506d7] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-01-29 23:41:05,720 WARN [n-be0d286dc1e7] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:10:57,873 WARN [n-9a93ab4b6618] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:10:58,662 INFO [n-9a93ab4b6618.a-9a93909fbb3a.FacebookBean] - FacebookAgent started.
+2014-02-01 21:11:01,555 INFO [n-9a93ab4b6618.a-9a93f37f932c.TestAgentBean] - TestAgent started.
+2014-02-01 21:11:57,762 WARN [n-9aa1c3185655] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:11:58,348 INFO [n-9aa1c3185655.a-9aa1ef4a1e75.FacebookBean] - FacebookAgent started.
+2014-02-01 21:11:59,702 INFO [n-9aa1c3185655.a-9aa199243bb7.TestAgentBean] - TestAgent started.
+2014-02-01 21:13:20,784 WARN [n-9ab4f26228fe] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:13:21,377 INFO [n-9ab4f26228fe.a-9ab4d530a95f.FacebookBean] - FacebookAgent started.
+2014-02-01 21:13:22,904 INFO [n-9ab4f26228fe.a-9ab537b6cb42.TestAgentBean] - TestAgent started.
+2014-02-01 21:14:31,137 WARN [n-9ac553b34b7e] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:14:31,727 INFO [n-9ac553b34b7e.a-9ac53685f374.FacebookBean] - FacebookAgent started.
+2014-02-01 21:14:32,995 INFO [n-9ac553b34b7e.a-9ac5990971b2.TestAgentBean] - TestAgent started.
+2014-02-01 21:15:14,946 WARN [n-9acf86f3d732] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:15:15,541 INFO [n-9acf86f3d732.a-9acf6a02f228.FacebookBean] - FacebookAgent started.
+2014-02-01 21:15:16,663 INFO [n-9acf86f3d732.a-9acfbfa55e95.TestAgentBean] - TestAgent started.
+2014-02-01 21:16:34,680 WARN [n-9ae2177c9473] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:16:35,277 INFO [n-9ae2177c9473.a-9ae1faa7b090.FacebookBean] - FacebookAgent started.
+2014-02-01 21:16:36,029 INFO [n-9ae2177c9473.a-9ae2509a5d1a.TestAgentBean] - TestAgent started.
+2014-02-01 21:16:36,031 INFO [n-9ae2177c9473.a-9ae2509a5d1a.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9ae2177c9473/a-9ae1faa7b090
+2014-02-01 21:16:36,046 ERROR [n-9ae2177c9473.a-9ae2509a5d1a.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:52)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:16:37,031 INFO [n-9ae2177c9473.a-9ae2509a5d1a.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9ae2177c9473/a-9ae1faa7b090
+2014-02-01 21:16:37,031 ERROR [n-9ae2177c9473.a-9ae2509a5d1a.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:52)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:16:38,031 INFO [n-9ae2177c9473.a-9ae2509a5d1a.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9ae2177c9473/a-9ae1faa7b090
+2014-02-01 21:16:38,031 ERROR [n-9ae2177c9473.a-9ae2509a5d1a.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:52)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:16:39,031 INFO [n-9ae2177c9473.a-9ae2509a5d1a.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9ae2177c9473/a-9ae1faa7b090
+2014-02-01 21:16:39,031 ERROR [n-9ae2177c9473.a-9ae2509a5d1a.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:52)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:18:08,028 WARN [n-9af7d36f6681] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:18:08,613 INFO [n-9af7d36f6681.a-9af824e40860.FacebookBean] - FacebookAgent started.
+2014-02-01 21:18:09,368 INFO [n-9af7d36f6681.a-9af7d1565d76.TestAgentBean] - TestAgent started.
+2014-02-01 21:18:09,373 INFO [n-9af7d36f6681.a-9af7d1565d76.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9af7d36f6681/a-9af824e40860
+2014-02-01 21:18:09,373 ERROR [n-9af7d36f6681.a-9af7d1565d76.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:52)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:18:10,373 INFO [n-9af7d36f6681.a-9af7d1565d76.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9af7d36f6681/a-9af824e40860
+2014-02-01 21:18:10,373 ERROR [n-9af7d36f6681.a-9af7d1565d76.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:52)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:23:57,164 WARN [n-9b4942d2cbc1] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:23:57,760 INFO [n-9b4942d2cbc1.a-9b496f179048.TestAgentBean] - TestAgent started.
+2014-02-01 21:23:57,765 INFO [n-9b4942d2cbc1.a-9b491301b0e7.FacebookBean] - FacebookAgent started.
+2014-02-01 21:24:07,272 INFO [n-9b4942d2cbc1.a-9b496f179048.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9b4942d2cbc1/a-9b491301b0e7
+2014-02-01 21:24:07,272 INFO [n-9b4942d2cbc1.a-9b496f179048.TestAgentBean] - 
+2014-02-01 21:24:07,273 ERROR [n-9b4942d2cbc1.a-9b496f179048.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:24:45,029 WARN [n-9b547d20c1dd] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:24:45,615 INFO [n-9b547d20c1dd.a-9b5440cd8cbb.TestAgentBean] - TestAgent started.
+2014-02-01 21:24:45,618 INFO [n-9b547d20c1dd.a-9b5494b5a23e.FacebookBean] - FacebookAgent started.
+2014-02-01 21:24:55,136 INFO [n-9b547d20c1dd.a-9b5440cd8cbb.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9b547d20c1dd/a-9b5494b5a23e
+2014-02-01 21:24:55,136 INFO [n-9b547d20c1dd.a-9b5440cd8cbb.TestAgentBean] - [Ljava.io.Serializable;@1b7f955b
+2014-02-01 21:24:55,137 ERROR [n-9b547d20c1dd.a-9b5440cd8cbb.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:26:51,274 WARN [n-9b71f22c208c] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:26:51,859 INFO [n-9b71f22c208c.a-9b7203218abc.TestAgentBean] - TestAgent started.
+2014-02-01 21:26:51,860 INFO [n-9b71f22c208c.a-9b7203218abc.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@96f1ee5
+ provider =TestAgent(a-9b7203218abc)
+ scope=AGENT
+
+2014-02-01 21:26:51,860 INFO [n-9b71f22c208c.a-9b7203218abc.TestAgentBean] - 4. + sendAction
+2014-02-01 21:26:51,863 INFO [n-9b71f22c208c.a-9b71c7fff1c3.FacebookBean] - FacebookAgent started.
+2014-02-01 21:27:01,383 INFO [n-9b71f22c208c.a-9b7203218abc.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9b71f22c208c/a-9b71c7fff1c3
+2014-02-01 21:27:01,384 ERROR [n-9b71f22c208c.a-9b7203218abc.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:56)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:28:00,772 WARN [n-9b82209c2b48] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:28:01,370 INFO [n-9b82209c2b48.a-9b82317743e0.TestAgentBean] - TestAgent started.
+2014-02-01 21:28:01,371 INFO [n-9b82209c2b48.a-9b82317743e0.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@2190954e
+ provider =TestAgent(a-9b82317743e0)
+ scope=AGENT
+
+2014-02-01 21:28:01,372 INFO [n-9b82209c2b48.a-9b82317743e0.TestAgentBean] - 4.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@2190954e
+ provider =TestAgent(a-9b82317743e0)
+ scope=AGENT
+
+2014-02-01 21:28:01,376 INFO [n-9b82209c2b48.a-9b81f6550249.FacebookBean] - FacebookAgent started.
+2014-02-01 21:28:10,880 INFO [n-9b82209c2b48.a-9b82317743e0.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9b82209c2b48/a-9b81f6550249
+2014-02-01 21:28:10,881 ERROR [n-9b82209c2b48.a-9b82317743e0.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:56)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:30:10,851 WARN [n-9ba07125e89e] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:30:11,440 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - TestAgent started.
+2014-02-01 21:30:11,445 INFO [n-9ba07125e89e.a-9ba07512033a.FacebookBean] - FacebookAgent started.
+2014-02-01 21:30:20,958 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - 1.null
+2014-02-01 21:30:20,958 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - 2.null
+2014-02-01 21:30:20,958 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - 3.null
+2014-02-01 21:30:20,958 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - 3.null
+2014-02-01 21:30:20,959 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - 4.null
+2014-02-01 21:30:20,959 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - 5.null
+2014-02-01 21:30:20,959 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - 6.null
+2014-02-01 21:30:20,959 INFO [n-9ba07125e89e.a-9ba02d3d8469.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9ba07125e89e/a-9ba07512033a
+2014-02-01 21:30:20,960 ERROR [n-9ba07125e89e.a-9ba02d3d8469.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:55)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:31:56,617 WARN [n-9bb8bf2e52f6] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:31:57,204 INFO [n-9bb8bf2e52f6.a-9bb8a229e2d7.TestAgentBean] - TestAgent started.
+2014-02-01 21:31:57,208 INFO [n-9bb8bf2e52f6.a-9bb8b2a34571.FacebookBean] - FacebookAgent started.
+2014-02-01 21:32:06,727 INFO [n-9bb8bf2e52f6.a-9bb8a229e2d7.TestAgentBean] - 1.null
+2014-02-01 21:32:06,727 INFO [n-9bb8bf2e52f6.a-9bb8a229e2d7.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9bb8bf2e52f6/a-9bb8b2a34571
+2014-02-01 21:32:06,728 ERROR [n-9bb8bf2e52f6.a-9bb8a229e2d7.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:32:27,683 WARN [n-9bbffae32809] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:32:28,269 INFO [n-9bbffae32809.a-9bbfdda81759.TestAgentBean] - TestAgent started.
+2014-02-01 21:32:28,272 INFO [n-9bbffae32809.a-9bbfee0ebf93.FacebookBean] - FacebookAgent started.
+2014-02-01 21:32:37,789 INFO [n-9bbffae32809.a-9bbfdda81759.TestAgentBean] - 1.null
+2014-02-01 21:32:37,789 INFO [n-9bbffae32809.a-9bbfdda81759.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9bbffae32809/a-9bbfee0ebf93
+2014-02-01 21:32:37,790 ERROR [n-9bbffae32809.a-9bbfdda81759.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:37:15,666 WARN [n-9c0307ef9622] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:37:16,256 INFO [n-9c0307ef9622.a-9c02eae2e75b.TestAgentBean] - TestAgent started.
+2014-02-01 21:37:16,259 INFO [n-9c0307ef9622.a-9c02fb40e345.FacebookBean] - FacebookAgent started.
+2014-02-01 21:37:16,773 INFO [n-9c0307ef9622.a-9c02eae2e75b.TestAgentBean] - 1.null
+2014-02-01 21:37:16,774 INFO [n-9c0307ef9622.a-9c02eae2e75b.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c0307ef9622/a-9c02fb40e345
+2014-02-01 21:37:16,774 ERROR [n-9c0307ef9622.a-9c02eae2e75b.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:37:17,773 INFO [n-9c0307ef9622.a-9c02eae2e75b.TestAgentBean] - 1.null
+2014-02-01 21:37:17,773 INFO [n-9c0307ef9622.a-9c02eae2e75b.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c0307ef9622/a-9c02fb40e345
+2014-02-01 21:37:17,773 ERROR [n-9c0307ef9622.a-9c02eae2e75b.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:37:33,414 WARN [n-9c0729d57877] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:37:33,995 INFO [n-9c0729d57877.a-9c070cb37648.TestAgentBean] - TestAgent started.
+2014-02-01 21:37:33,999 INFO [n-9c0729d57877.a-9c071d23b7d6.FacebookBean] - FacebookAgent started.
+2014-02-01 21:37:34,521 INFO [n-9c0729d57877.a-9c070cb37648.TestAgentBean] - 1.null
+2014-02-01 21:37:34,521 INFO [n-9c0729d57877.a-9c070cb37648.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c0729d57877/a-9c071d23b7d6
+2014-02-01 21:37:34,522 ERROR [n-9c0729d57877.a-9c070cb37648.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:37:35,521 INFO [n-9c0729d57877.a-9c070cb37648.TestAgentBean] - 1.null
+2014-02-01 21:37:35,521 INFO [n-9c0729d57877.a-9c070cb37648.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c0729d57877/a-9c071d23b7d6
+2014-02-01 21:37:35,521 ERROR [n-9c0729d57877.a-9c070cb37648.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:38:13,233 WARN [n-9c10c6b55dbe] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:38:13,829 INFO [n-9c10c6b55dbe.a-9c10990f8fd7.TestAgentBean] - TestAgent started.
+2014-02-01 21:38:13,835 INFO [n-9c10c6b55dbe.a-9c108fa44bab.FacebookBean] - FacebookAgent started.
+2014-02-01 21:38:14,341 INFO [n-9c10c6b55dbe.a-9c10990f8fd7.TestAgentBean] - 1.null
+2014-02-01 21:38:14,341 INFO [n-9c10c6b55dbe.a-9c10990f8fd7.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c10c6b55dbe/a-9c108fa44bab
+2014-02-01 21:38:14,342 ERROR [n-9c10c6b55dbe.a-9c10990f8fd7.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:39:02,825 WARN [n-9c1c205bfe7f] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:39:03,414 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - TestAgent started.
+2014-02-01 21:39:03,417 INFO [n-9c1c205bfe7f.a-9c1bf0c15c20.FacebookBean] - FacebookAgent started.
+2014-02-01 21:39:03,936 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@556667e6
+ provider =TestAgent(a-9c1c4cd4d52c)
+ scope=AGENT
+
+2014-02-01 21:39:03,937 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c1c205bfe7f/a-9c1bf0c15c20
+2014-02-01 21:39:04,936 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@556667e6
+ provider =TestAgent(a-9c1c4cd4d52c)
+ scope=AGENT
+
+2014-02-01 21:39:04,936 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c1c205bfe7f/a-9c1bf0c15c20
+2014-02-01 21:39:04,938 INFO [n-9c1c205bfe7f.a-9c1bf0c15c20.FacebookBean] - FacebookAgent - message received
+2014-02-01 21:39:05,936 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@556667e6
+ provider =TestAgent(a-9c1c4cd4d52c)
+ scope=AGENT
+
+2014-02-01 21:39:05,936 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c1c205bfe7f/a-9c1bf0c15c20
+2014-02-01 21:39:05,938 INFO [n-9c1c205bfe7f.a-9c1bf0c15c20.FacebookBean] - FacebookAgent - message received
+2014-02-01 21:39:06,936 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@556667e6
+ provider =TestAgent(a-9c1c4cd4d52c)
+ scope=AGENT
+
+2014-02-01 21:39:06,936 INFO [n-9c1c205bfe7f.a-9c1c4cd4d52c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c1c205bfe7f/a-9c1bf0c15c20
+2014-02-01 21:39:06,939 INFO [n-9c1c205bfe7f.a-9c1bf0c15c20.FacebookBean] - FacebookAgent - message received
+2014-02-01 21:39:30,636 WARN [n-9c2274d71943] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:39:31,225 INFO [n-9c2274d71943.a-9c2257ba3062.TestAgentBean] - TestAgent started.
+2014-02-01 21:39:31,230 INFO [n-9c2274d71943.a-9c22681b4cee.FacebookBean] - FacebookAgent started.
+2014-02-01 21:39:31,744 INFO [n-9c2274d71943.a-9c2257ba3062.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@1b082505
+ provider =TestAgent(a-9c2257ba3062)
+ scope=AGENT
+
+2014-02-01 21:39:31,745 INFO [n-9c2274d71943.a-9c2257ba3062.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c2274d71943/a-9c22681b4cee
+2014-02-01 21:39:32,744 INFO [n-9c2274d71943.a-9c2257ba3062.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@1b082505
+ provider =TestAgent(a-9c2257ba3062)
+ scope=AGENT
+
+2014-02-01 21:39:32,744 INFO [n-9c2274d71943.a-9c2257ba3062.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c2274d71943/a-9c22681b4cee
+2014-02-01 21:39:44,962 WARN [n-9c25cac14d53] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:39:45,559 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - TestAgent started.
+2014-02-01 21:39:45,563 INFO [n-9c25cac14d53.a-9c25be0ad1b9.FacebookBean] - FacebookAgent started.
+2014-02-01 21:39:46,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@4674fb64
+ provider =TestAgent(a-9c25ad9f97c9)
+ scope=AGENT
+
+2014-02-01 21:39:46,071 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c25cac14d53/a-9c25be0ad1b9
+2014-02-01 21:39:47,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@4674fb64
+ provider =TestAgent(a-9c25ad9f97c9)
+ scope=AGENT
+
+2014-02-01 21:39:47,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c25cac14d53/a-9c25be0ad1b9
+2014-02-01 21:39:48,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@4674fb64
+ provider =TestAgent(a-9c25ad9f97c9)
+ scope=AGENT
+
+2014-02-01 21:39:48,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c25cac14d53/a-9c25be0ad1b9
+2014-02-01 21:39:49,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@4674fb64
+ provider =TestAgent(a-9c25ad9f97c9)
+ scope=AGENT
+
+2014-02-01 21:39:49,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c25cac14d53/a-9c25be0ad1b9
+2014-02-01 21:39:50,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@4674fb64
+ provider =TestAgent(a-9c25ad9f97c9)
+ scope=AGENT
+
+2014-02-01 21:39:50,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c25cac14d53/a-9c25be0ad1b9
+2014-02-01 21:39:51,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - 1.Action:
+ name='de.dailab.jiactng.agentcore.comm.ICommunicationBean#send'
+ parameters=[de.dailab.jiactng.agentcore.comm.message.IJiacMessage; de.dailab.jiactng.agentcore.comm.ICommunicationAddress]
+ results=[]
+ bean=de.dailab.jiactng.agentcore.comm.CommunicationBean@4674fb64
+ provider =TestAgent(a-9c25ad9f97c9)
+ scope=AGENT
+
+2014-02-01 21:39:51,070 INFO [n-9c25cac14d53.a-9c25ad9f97c9.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c25cac14d53/a-9c25be0ad1b9
+2014-02-01 21:40:58,622 WARN [n-9c372bc69e70] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:40:59,217 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent started.
+2014-02-01 21:40:59,222 INFO [n-9c372bc69e70.a-9c37435531c2.FacebookBean] - FacebookAgent started.
+2014-02-01 21:40:59,728 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:00,729 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:01,729 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:02,729 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:03,730 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:04,730 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:05,730 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:06,730 INFO [n-9c372bc69e70.a-9c36ef719d71.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c372bc69e70/a-9c37435531c2
+2014-02-01 21:41:30,503 WARN [n-9c3ea84239f3] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:41:31,085 INFO [n-9c3ea84239f3.a-9c3eb9250159.TestAgentBean] - TestAgent started.
+2014-02-01 21:41:31,088 INFO [n-9c3ea84239f3.a-9c3e7dfef1cb.FacebookBean] - FacebookAgent started.
+2014-02-01 21:41:31,610 INFO [n-9c3ea84239f3.a-9c3eb9250159.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c3ea84239f3/a-9c3e7dfef1cb
+2014-02-01 21:41:32,610 INFO [n-9c3ea84239f3.a-9c3eb9250159.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c3ea84239f3/a-9c3e7dfef1cb
+2014-02-01 21:41:33,610 INFO [n-9c3ea84239f3.a-9c3eb9250159.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c3ea84239f3/a-9c3e7dfef1cb
+2014-02-01 21:41:33,613 INFO [n-9c3ea84239f3.a-9c3e7dfef1cb.FacebookBean] - FacebookAgent - message received
+2014-02-01 21:42:36,459 WARN [n-9c4db8b89ca0] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:42:37,036 INFO [n-9c4db8b89ca0.a-9c4d9b952960.TestAgentBean] - TestAgent started.
+2014-02-01 21:42:37,042 INFO [n-9c4db8b89ca0.a-9c4dabf80be4.FacebookBean] - FacebookAgent started.
+2014-02-01 21:42:37,565 INFO [n-9c4db8b89ca0.a-9c4d9b952960.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c4db8b89ca0/a-9c4dabf80be4
+2014-02-01 21:42:37,566 ERROR [n-9c4db8b89ca0.a-9c4d9b952960.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:42:38,565 INFO [n-9c4db8b89ca0.a-9c4d9b952960.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c4db8b89ca0/a-9c4dabf80be4
+2014-02-01 21:42:38,565 ERROR [n-9c4db8b89ca0.a-9c4d9b952960.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:42:39,565 INFO [n-9c4db8b89ca0.a-9c4d9b952960.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c4db8b89ca0/a-9c4dabf80be4
+2014-02-01 21:42:39,565 ERROR [n-9c4db8b89ca0.a-9c4d9b952960.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:42:40,565 INFO [n-9c4db8b89ca0.a-9c4d9b952960.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9c4db8b89ca0/a-9c4dabf80be4
+2014-02-01 21:42:40,565 ERROR [n-9c4db8b89ca0.a-9c4d9b952960.SimpleExecutionCycle] - Error when executing bean 'TestAgentBean'
+java.lang.NullPointerException
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:397)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:378)
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.invoke(AbstractAgentBean.java:361)
+	at agents.beans.TestAgentBean.execute(TestAgentBean.java:53)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.processBeanExecutes(SimpleExecutionCycle.java:118)
+	at de.dailab.jiactng.agentcore.execution.SimpleExecutionCycle.run(SimpleExecutionCycle.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-02-01 21:57:59,855 WARN [n-9d24b7646062] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-01 21:58:00,440 INFO [n-9d24b7646062.a-9d249a242bc6.TestAgentBean] - TestAgent started.
+2014-02-01 21:58:00,443 INFO [n-9d24b7646062.a-9d24aa80deb5.FacebookBean] - FacebookAgent started.
+2014-02-01 21:58:00,959 INFO [n-9d24b7646062.a-9d249a242bc6.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9d24b7646062/a-9d24aa80deb5
+2014-02-01 21:58:01,959 INFO [n-9d24b7646062.a-9d249a242bc6.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9d24b7646062/a-9d24aa80deb5
+2014-02-01 21:58:01,961 INFO [n-9d24b7646062.a-9d24aa80deb5.FacebookBean] - FacebookAgent - message received
+2014-02-01 21:58:02,959 INFO [n-9d24b7646062.a-9d249a242bc6.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9d24b7646062/a-9d24aa80deb5
+2014-02-01 21:58:02,961 INFO [n-9d24b7646062.a-9d24aa80deb5.FacebookBean] - FacebookAgent - message received
+2014-02-01 21:58:03,959 INFO [n-9d24b7646062.a-9d249a242bc6.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9d24b7646062/a-9d24aa80deb5
+2014-02-01 21:58:03,961 INFO [n-9d24b7646062.a-9d24aa80deb5.FacebookBean] - FacebookAgent - message received
+2014-02-01 21:58:04,959 INFO [n-9d24b7646062.a-9d249a242bc6.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-9d24b7646062/a-9d24aa80deb5
+2014-02-01 21:58:04,961 INFO [n-9d24b7646062.a-9d24aa80deb5.FacebookBean] - FacebookAgent - message received
+2014-02-06 11:57:25,762 WARN [n-13504172c39801ff] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-06 11:57:26,398 ERROR [n-13504172c39801ff.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-06 11:57:27,029 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent started.
+2014-02-06 11:57:27,041 INFO [n-13504172c39801ff.a-13504172e28d3461.FacebookBean] - FacebookAgent started.
+2014-02-06 11:57:27,044 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:27,045 ERROR [n-13504172c39801ff.a-13504172e28d3461] - Agentbean: 'FacebookBean' could not switch to state: 'STARTED'! 
+  Exception was: 
+de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-06 11:57:27,049 ERROR [n-13504172c39801ff.a-13504172e28d3461] - Recovery for Agentbean: 'FacebookBean' failed, removing Bean.
+java.lang.RuntimeException: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.handleLifecycleException(AbstractAgentBean.java:294)
+	at de.dailab.jiactng.agentcore.Agent.handleBeanException(Agent.java:643)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:541)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-06 11:57:28,044 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:29,044 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:30,045 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:31,046 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:32,046 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:33,046 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:34,047 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:35,048 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:36,047 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:37,047 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:38,047 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:39,047 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:40,047 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:41,047 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:42,048 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:43,048 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:44,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:45,048 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:46,048 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:47,048 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:48,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:49,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:50,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:51,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:52,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:53,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:54,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:55,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:56,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:57,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:58,050 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:57:59,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:00,049 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:01,050 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:02,050 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:03,050 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:04,050 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:05,050 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:06,051 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:07,051 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:08,051 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:09,051 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:10,052 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:11,051 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:12,052 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:13,052 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:14,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:15,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:16,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:17,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:18,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:19,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:20,054 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:21,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:22,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:23,053 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:24,054 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:25,054 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:26,054 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:27,055 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:28,055 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:28,836 WARN [n-135041818beeadf7] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-06 11:58:29,055 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:29,775 ERROR [n-135041818beeadf7.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-06 11:58:30,055 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:30,815 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent started.
+2014-02-06 11:58:30,826 INFO [n-135041818beeadf7.a-1350418190a2c447.FacebookBean] - FacebookAgent started.
+2014-02-06 11:58:30,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:30,834 ERROR [n-135041818beeadf7.a-1350418190a2c447] - Agentbean: 'FacebookBean' could not switch to state: 'STARTED'! 
+  Exception was: 
+de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-06 11:58:30,841 ERROR [n-135041818beeadf7.a-1350418190a2c447] - Recovery for Agentbean: 'FacebookBean' failed, removing Bean.
+java.lang.RuntimeException: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.handleLifecycleException(AbstractAgentBean.java:294)
+	at de.dailab.jiactng.agentcore.Agent.handleBeanException(Agent.java:643)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:541)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-06 11:58:31,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:31,830 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:32,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:32,830 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:33,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:33,057 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:33,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:33,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:34,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:34,057 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:34,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:34,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:35,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:35,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:35,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:35,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:36,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:36,056 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:36,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:36,832 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:37,057 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:37,057 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:37,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:37,831 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:38,057 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-13504172c39801ff/a-13504172e28d3461
+2014-02-06 11:58:38,058 INFO [n-13504172c39801ff.a-13504172d3f27496.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:38,623 ERROR [n-13504172c39801ff.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-06 11:58:38,624 ERROR [n-13504172c39801ff.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-13504172c39801ff,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-06 11:58:38,833 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:39,833 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:40,834 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:41,834 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:42,834 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:43,834 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:44,835 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:45,835 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:46,835 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:47,835 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:48,835 INFO [n-135041818beeadf7.a-1350418174a67d44.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041818beeadf7/a-1350418190a2c447
+2014-02-06 11:58:49,231 ERROR [n-135041818beeadf7.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-06 11:58:49,231 ERROR [n-135041818beeadf7.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-135041818beeadf7,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-06 12:07:06,872 WARN [n-135041fa2d8bbae5] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-06 12:07:07,590 ERROR [n-135041fa2d8bbae5.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-06 12:07:08,339 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent started.
+2014-02-06 12:07:08,353 INFO [n-135041fa2d8bbae5.a-135041fa30127a77.FacebookBean] - FacebookAgent started.
+2014-02-06 12:07:08,357 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:08,357 ERROR [n-135041fa2d8bbae5.a-135041fa30127a77] - Agentbean: 'FacebookBean' could not switch to state: 'STARTED'! 
+  Exception was: 
+de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-06 12:07:08,362 ERROR [n-135041fa2d8bbae5.a-135041fa30127a77] - Recovery for Agentbean: 'FacebookBean' failed, removing Bean.
+java.lang.RuntimeException: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.handleLifecycleException(AbstractAgentBean.java:294)
+	at de.dailab.jiactng.agentcore.Agent.handleBeanException(Agent.java:643)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:541)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-06 12:07:09,355 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:10,356 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:11,356 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:12,356 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:13,357 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:14,358 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:15,360 INFO [n-135041fa2d8bbae5.a-135041fa142bc6e4.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-135041fa2d8bbae5/a-135041fa30127a77
+2014-02-06 12:07:15,963 ERROR [n-135041fa2d8bbae5.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-06 12:07:15,963 ERROR [n-135041fa2d8bbae5.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-135041fa2d8bbae5,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-08 14:20:59,870 WARN [n-1350e6719ffb887f] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-08 14:21:00,427 ERROR [n-1350e6719ffb887f.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-08 14:21:01,052 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent started.
+2014-02-08 14:21:01,065 INFO [n-1350e6719ffb887f.a-1350e671b53d23bc.FacebookBean] - FacebookAgent started.
+2014-02-08 14:21:01,068 ERROR [n-1350e6719ffb887f.a-1350e671b53d23bc] - Agentbean: 'FacebookBean' could not switch to state: 'STARTED'! 
+  Exception was: 
+de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-08 14:21:01,071 ERROR [n-1350e6719ffb887f.a-1350e671b53d23bc] - Recovery for Agentbean: 'FacebookBean' failed, removing Bean.
+java.lang.RuntimeException: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.handleLifecycleException(AbstractAgentBean.java:294)
+	at de.dailab.jiactng.agentcore.Agent.handleBeanException(Agent.java:643)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:541)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-08 14:21:01,096 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:02,094 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:03,095 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:04,096 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:05,097 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:06,096 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:07,096 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:08,097 INFO [n-1350e6719ffb887f.a-1350e671dbe4c206.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6719ffb887f/a-1350e671b53d23bc
+2014-02-08 14:21:08,434 ERROR [n-1350e6719ffb887f.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-08 14:21:08,434 ERROR [n-1350e6719ffb887f.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-1350e6719ffb887f,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-08 14:22:13,997 WARN [n-1350e682e28bb19f] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-08 14:22:14,371 ERROR [n-1350e682e28bb19f.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-08 14:22:14,994 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent started.
+2014-02-08 14:22:14,999 INFO [n-1350e682e28bb19f.a-1350e682f623cf14.FacebookBean] - FacebookAgent started.
+2014-02-08 14:22:15,001 ERROR [n-1350e682e28bb19f.a-1350e682f623cf14] - Agentbean: 'FacebookBean' could not switch to state: 'STARTED'! 
+  Exception was: 
+de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-08 14:22:15,003 ERROR [n-1350e682e28bb19f.a-1350e682f623cf14] - Recovery for Agentbean: 'FacebookBean' failed, removing Bean.
+java.lang.RuntimeException: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.AbstractAgentBean.handleLifecycleException(AbstractAgentBean.java:294)
+	at de.dailab.jiactng.agentcore.Agent.handleBeanException(Agent.java:643)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:541)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.doStart(SimpleAgentNode.java:731)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.afterPropertiesSet(SimpleAgentNode.java:596)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at de.dailab.jiactng.agentcore.SimpleAgentNode.main(SimpleAgentNode.java:128)
+	at agents.beans.NodeStarter.main(NodeStarter.java:11)
+Caused by: de.dailab.jiactng.agentcore.lifecycle.LifecycleException: Failed to start
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:150)
+	at de.dailab.jiactng.agentcore.Agent.setBeanState(Agent.java:725)
+	at de.dailab.jiactng.agentcore.Agent.doStart(Agent.java:539)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at access.MySQLAccess.connectDriver(MySQLAccess.java:36)
+	at agents.beans.FacebookBean.doStart(FacebookBean.java:67)
+	at de.dailab.jiactng.agentcore.lifecycle.AbstractLifecycle.start(AbstractLifecycle.java:140)
+	... 21 more
+2014-02-08 14:22:15,201 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:16,200 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:17,200 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:18,200 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:19,201 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:20,200 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:21,200 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:22,201 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:23,202 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:24,203 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:25,203 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:26,204 INFO [n-1350e682e28bb19f.a-1350e6831cf5e85e.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e682e28bb19f/a-1350e682f623cf14
+2014-02-08 14:22:26,924 ERROR [n-1350e682e28bb19f.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-08 14:22:26,925 ERROR [n-1350e682e28bb19f.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-1350e682e28bb19f,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-08 14:25:24,626 WARN [n-1350e6af49146c5d] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-08 14:25:24,996 ERROR [n-1350e6af49146c5d.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-08 14:25:25,573 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent started.
+2014-02-08 14:25:25,584 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent started.
+2014-02-08 14:25:25,824 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:26,823 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:27,824 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:28,824 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:29,824 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:30,825 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:31,825 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:32,826 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:33,827 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:34,828 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:35,828 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:36,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:37,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:38,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:38,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:38,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:39,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:39,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:39,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:40,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:40,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:40,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:41,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:41,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:41,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:42,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:42,832 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:42,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:43,829 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:43,832 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:43,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:44,830 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:44,833 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:44,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:45,830 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:45,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:45,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:46,830 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:46,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:46,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:47,831 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:47,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:47,835 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:48,831 INFO [n-1350e6af49146c5d.a-1350e6af2b02c78c.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6af49146c5d/a-1350e6af45271e27
+2014-02-08 14:25:48,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:25:48,834 INFO [n-1350e6af49146c5d.a-1350e6af45271e27.FacebookBean] - ID: 30
+2014-02-08 14:25:48,883 ERROR [n-1350e6af49146c5d.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-08 14:25:48,883 ERROR [n-1350e6af49146c5d.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-1350e6af49146c5d,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-08 14:26:34,644 WARN [n-1350e6bf769d9f40] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-08 14:26:35,001 ERROR [n-1350e6bf769d9f40.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-08 14:26:35,607 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent started.
+2014-02-08 14:26:35,617 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - FacebookAgent started.
+2014-02-08 14:26:35,826 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6bf769d9f40/a-1350e6bff2486447
+2014-02-08 14:26:36,826 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6bf769d9f40/a-1350e6bff2486447
+2014-02-08 14:26:36,830 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:26:36,830 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - ID: 30
+2014-02-08 14:26:37,827 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6bf769d9f40/a-1350e6bff2486447
+2014-02-08 14:26:37,831 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:26:37,831 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - ID: 30
+2014-02-08 14:26:38,827 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6bf769d9f40/a-1350e6bff2486447
+2014-02-08 14:26:38,830 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:26:38,831 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - ID: 30
+2014-02-08 14:26:39,827 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6bf769d9f40/a-1350e6bff2486447
+2014-02-08 14:26:39,831 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:26:39,832 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - ID: 30
+2014-02-08 14:26:40,827 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6bf769d9f40/a-1350e6bff2486447
+2014-02-08 14:26:40,831 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:26:40,832 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - ID: 30
+2014-02-08 14:26:41,827 INFO [n-1350e6bf769d9f40.a-1350e6bfb63f0ef5.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6bf769d9f40/a-1350e6bff2486447
+2014-02-08 14:26:41,831 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:26:41,832 INFO [n-1350e6bf769d9f40.a-1350e6bff2486447.FacebookBean] - ID: 30
+2014-02-08 14:26:42,232 ERROR [n-1350e6bf769d9f40.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-08 14:26:42,232 ERROR [n-1350e6bf769d9f40.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-1350e6bf769d9f40,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-08 14:27:39,471 WARN [n-1350e6ced29e95e5] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-08 14:27:39,830 ERROR [n-1350e6ced29e95e5.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-08 14:27:40,407 INFO [n-1350e6ced29e95e5.a-1350e6ceda105b16.TestAgentBean] - TestAgent started.
+2014-02-08 14:27:40,418 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - FacebookAgent started.
+2014-02-08 14:27:40,650 INFO [n-1350e6ced29e95e5.a-1350e6ceda105b16.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6ced29e95e5/a-1350e6cedc9a80b6
+2014-02-08 14:27:41,651 INFO [n-1350e6ced29e95e5.a-1350e6ceda105b16.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6ced29e95e5/a-1350e6cedc9a80b6
+2014-02-08 14:27:41,655 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:27:41,656 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - ID: 30
+2014-02-08 14:27:42,651 INFO [n-1350e6ced29e95e5.a-1350e6ceda105b16.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6ced29e95e5/a-1350e6cedc9a80b6
+2014-02-08 14:27:42,885 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:27:42,886 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - ID: 30
+2014-02-08 14:27:43,652 INFO [n-1350e6ced29e95e5.a-1350e6ceda105b16.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6ced29e95e5/a-1350e6cedc9a80b6
+2014-02-08 14:27:43,656 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:27:43,656 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - ID: 30
+2014-02-08 14:27:44,652 INFO [n-1350e6ced29e95e5.a-1350e6ceda105b16.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6ced29e95e5/a-1350e6cedc9a80b6
+2014-02-08 14:27:44,656 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:27:44,656 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - ID: 30
+2014-02-08 14:27:45,652 INFO [n-1350e6ced29e95e5.a-1350e6ceda105b16.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6ced29e95e5/a-1350e6cedc9a80b6
+2014-02-08 14:27:45,657 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:27:45,658 INFO [n-1350e6ced29e95e5.a-1350e6cedc9a80b6.FacebookBean] - ID: 30
+2014-02-08 14:27:46,145 ERROR [n-1350e6ced29e95e5.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-08 14:27:46,146 ERROR [n-1350e6ced29e95e5.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-1350e6ced29e95e5,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
+2014-02-08 14:29:35,072 WARN [n-1350e6e9bcf64dfd] - JIAC version: JIAC TNG Agent Core version 5.1.4 (01.08.2013 17:23:34) (DAI-Labor, TU Berlin)
+2014-02-08 14:29:35,452 ERROR [n-1350e6e9bcf64dfd.JmxConnectorManager] - Unable to leave multicast group 226.6.6.7
+2014-02-08 14:29:36,047 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c4c0d1ee.TestAgentBean] - TestAgent started.
+2014-02-08 14:29:36,057 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - FacebookAgent started.
+2014-02-08 14:29:36,261 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c4c0d1ee.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6e9bcf64dfd/a-1350e6e9c7743a0e
+2014-02-08 14:29:37,261 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c4c0d1ee.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6e9bcf64dfd/a-1350e6e9c7743a0e
+2014-02-08 14:29:38,260 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c4c0d1ee.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6e9bcf64dfd/a-1350e6e9c7743a0e
+2014-02-08 14:29:38,265 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:29:38,265 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - ID: 30
+2014-02-08 14:29:39,260 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c4c0d1ee.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6e9bcf64dfd/a-1350e6e9c7743a0e
+2014-02-08 14:29:39,340 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:29:39,341 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - ID: 30
+2014-02-08 14:29:40,260 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c4c0d1ee.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6e9bcf64dfd/a-1350e6e9c7743a0e
+2014-02-08 14:29:40,264 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:29:40,265 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - ID: 30
+2014-02-08 14:29:41,260 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c4c0d1ee.TestAgentBean] - TestAgent - sending UserID to: msgbox:n-1350e6e9bcf64dfd/a-1350e6e9c7743a0e
+2014-02-08 14:29:41,265 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - FacebookAgent - message received
+2014-02-08 14:29:41,265 INFO [n-1350e6e9bcf64dfd.a-1350e6e9c7743a0e.FacebookBean] - ID: 30
+2014-02-08 14:29:42,266 ERROR [n-1350e6e9bcf64dfd.StandardJMSBroker] - WARNING: Unable to deregister transport connector tcp://0.0.0.0:0 of the broker of agent node SocialMediaAgentNode as JMX resource.
+2014-02-08 14:29:42,272 ERROR [n-1350e6e9bcf64dfd.StandardJMSBroker] - de.dailab.jiactng:category1=AgentNode,agentnode=n-1350e6e9bcf64dfd,category2=agentNodeBean,agentnodebean=StandardJMSBroker,category3=TransportConnector,resource="tcp://0.0.0.0:0"
